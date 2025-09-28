@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - FoodExpress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">FoodExpress</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="checkout-section">
+        <h2>Checkout</h2>
+        <div class="checkout-cart-list">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="checkout-total">
+            Total: <span id="checkout-total">₹0</span>
+        </div>
+        <form class="checkout-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="text" placeholder="Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <button type="submit" class="btn">Place Order</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 FoodExpress. All rights reserved.</p>
+    </footer>
+    <script src="checkout.js"></script>
+</body>
+</html>
